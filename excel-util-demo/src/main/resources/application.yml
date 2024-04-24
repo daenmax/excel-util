@@ -1,0 +1,10 @@
+# 测试环境
+server:
+  port: 8012
+  servlet:
+    context-path: /excel
+
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml
